@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Article</title>
+  <link rel="stylesheet" href="css/articles.css">
+  <script src="https://kit.fontawesome.com/6878103c17.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+
+
+    $(document).ready(function () {
+      $("#iconbar").click(function () {
+        $("nav").toggleClass("responsivev");
+      });
+    });
+  </script>
+  <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+
+  <section id="home">
+    <!-- <div class="logomv">
+        <a href="index.html"><img src="img/logomv2.png"></a>
+      </div> -->
+
+    <nav class="nav" id="nav2">
+
+      <ul class="ul">
+
+        <li ><a href="articles.html" id="n1">Articles</a></li>
+        <li ><a href="aboutus.html" id="n2">About</a></li>
+        <li ><a href="services.html" id="n3">Services</a></li>        
+        <li ><a href="#feedback" id="n4">Feedback</a></li>
+      </ul>
+
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png"></a>
+      </div>
+        
+
+      <ul class="ul2">
+        
+        <li ><a href="contact.html" id="n5">Contact</a></li>
+        <li ><a href="faq2.html" id="n6">FAQ's</a></li>
+        <li ><a href="card.html" id="n6">Internships</a></li>
+        <li ><a href="#" id="n6">Certificates</a></li>
+
+      </ul>
+
+    </nav>
+
+    <a href="#" id="iconbar" onclick="menu()"><i class="fas fa-bars bars"></i></a>
+
+    <div class="content">
+      
+      <h1 class="welcome">Articles</h1>
+
+    </div>
+
+    <div id="firefly">
+      
+    </div>
+  </section>
+
+  <section id="aboutus">
+
+    <h1 class="aheader">Trending Posts</h1>
+    <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide_1">
+              <div class="slide-content">
+                <img src="img/simg1.jpeg" alt="" class="simg1">
+                <h1 class="post1">Effective ways to cramp up for an exam.</h1>
+                <p class="content">
+                Gulping up everything isn't the best way to study for any exam,<br>
+                so before we begin, if you've a big chunk of time then I would<br>
+                If not then come lets jump into it.</p>
+                <p class="p1">Tanmay Tiwari</p>
+                <p class="date1">Jun 25th . 4 min read</p>
+              </div>
+            </div>
+            <div class="slide slide_2">
+              <div class="slide-content">
+                <img src="img/simg2.jpg" alt="" class="simg1">
+                <h1 class="post1">See yourself winning.</h1>
+                <p class="content">
+                Gulping up everything isn't the best way to study for any exam, <br>
+                so before we begin, if you've a big chunk of time then I would <br>
+                If not then come lets jump into it.</p>
+                <p class="p1">Tanmay Tiwari</p>
+                <p class="date1">Jun 25th . 4 min read</p>
+              </div>
+            </div>
+            <div class="slide slide_3">
+              <div class="slide-content">
+                <img src="img/simg3.jpg" alt="" class="simg1">
+                <h1 class="post1">Pen it down: Top Tips for Blogging.</h1>
+                <p class="content">
+                Gulping up everything isn't the best way to study for any exam,<br>
+                so before we begin, if you've a big chunk of time then I would<br>
+                If not then come lets jump into it.</p>
+                <p class="p1">Tanmay Tiwari</p>
+                <p class="date1">Jun 25th . 4 min read</p>
+              </div>
+            </div>
+            <div class="slide slide_4">
+              <div class="slide-content">
+                <img src="img/simg4.jpg" alt="" class="simg1">
+                <h1 class="post1">9 Things you must remember.</h1>
+                <p class="content">
+                Gulping up everything isn't the best way to study for any exam,<br>
+                so before we begin, if you've a big chunk of time then I would<br>
+                If not then come lets jump into it.</p>
+                <p class="p1">Tanmay Tiwari</p>
+                <p class="date1">Jun 25th . 4 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+
+
+    <h3 class="welcome2"> All Articles</h3>
+
+    <div class="aa1">
+      <img src="img/aimg1.jpg" alt="" class="aimg1">
+      <h1 class="apost1">21 Ways to keep up with your Notes</h1>
+      <p class="acontent">Many of us are in the habit of leaving things for the last moment.
+        Being a student, you must have been a victim in a situation where
+        either you are not able to complete notes or maybe do not have a strategy to study</p>
+      <p class="ap1">Tanmay Tiwari</p>
+      <p class="adate1">Jun 25th . 4 min read</p>
+      <button>Read More</button>
+    </div>
+
+    <div class="as1">
+      <img src="img/asimg.jpg" alt="" class="asimg1">
+      <h1 class="asheading">Learn Topics in no <br>Time with these Tricks</h1>
+      <p class="astxt"> Shruti Govil</p>
+      <p class="asd1">Jun 19th • 4 min read </p>
+    </div>
+
+    <div class="as2">
+      <img src="img/asimg2.jpg" alt="" class="asimg2">
+      <h1 class="asheading2">7 Tips To Make <br>Notes Unique Others</h1>
+      <p class="astxt2"> Shruti Govil</p>
+      <p class="asd2">Jun 18th • 4 min read </p>
+    </div>
+
+    <div class="trend">
+      <img src="img/trending.jpg" alt="">
+    </div>
+
+
+      <div style="margin-left: 10%;" class="political">
+    <img src="img/political.jpg" alt="" style="width: 90%;height: auto;">
+  </div>
+
+
+
+      <div class="businessm">
+        <img src="img/business.jpg" alt="">
+      </div>
+
+  </section>
+
+
+
+
+
+
+  <section id="footer">
+    <div>
+      <h1 class="ftxt">NOTES PICKUP</h1>
+      <p class="fp">Welcome to our company. Lorem ipsum is simply<br> free text dolor sit amet consectetur adipisicing
+        elit. Tempore <br>corrupti temporibus fuga earum asperiores, alias excepturi<br> sit mpedit fugit laudantium.
+      </p>
+    </div>
+    <div class="con">
+      <h1 class="contxt">
+        CONTACT
+      </h1>
+      <p class="cp">
+        66 Thane, Maharashtra<br>
+        India<br><br>
+
+        P: +919927468766<br><br>
+
+        E: contact@notespickup.com
+      </p>
+    </div>
+    <div class="social">
+
+      <h1 class="stxt">SOCIAL</h1>
+      <p class="sp"><i class="fab fa-twitter-square"></i><span>Twitter</span></p>
+      <p class="sp2"><i class="fab fa-facebook-square"></i><span>Facebook</span></p>
+      <p class="sp3"><i class="fab fa-youtube-square"></i><span>Youtube</span></p>
+
+    </div>
+
+    <hr>
+
+    <div class="rights">
+
+
+      © Copyright 2020. All Rights Reserved.
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.firefly-0.7.js"></script>
+
+  <script>
+    $.firefly({
+      color: '#fab917',
+      minPixel: 2,
+      maxPixel: 9,
+      total: 35,
+      on: '#firefly'
+    });
+
+
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>

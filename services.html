@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Services</title>
+	<link rel="stylesheet" href="css/services.css">
+	<script src="https://kit.fontawesome.com/6878103c17.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+  			$("#iconbar").click(function(){
+    			$("nav").toggleClass("responsivev");
+  			});
+		});
+	</script>
+</head>
+<body>
+	
+	<section id="home">
+    <!-- <div class="logomv">
+        <a href="index.html"><img src="img/logomv2.png"></a>
+      </div> -->
+
+    <nav class="nav" id="nav2">
+
+      <ul class="ul">
+
+        <li ><a href="articles.html" id="n1">Articles</a></li>
+        <li ><a href="aboutus.html" id="n2">About</a></li>
+        <li ><a href="services.html" id="n3">Services</a></li>        
+        <li ><a href="#feedback" id="n4">Feedback</a></li>
+      </ul>
+
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png"></a>
+      </div>
+        
+
+      <ul class="ul2">
+        
+        <li ><a href="contact.html" id="n5">Contact</a></li>
+        <li ><a href="faq2.html" id="n6">FAQ's</a></li>
+        <li ><a href="card.html" id="n6">Internships</a></li>
+        <li ><a href="#" id="n6">Certificates</a></li>
+
+      </ul>
+
+    </nav>
+
+    <a href="#" id="iconbar" onclick="menu()"><i class="fas fa-bars bars"></i></a>
+
+    <div class="content">
+      
+      <h1 class="welcome">Services</h1>
+
+    </div>
+
+    <div id="firefly">
+      
+    </div>
+  </section>
+
+	<section id="service">
+
+    <!-- <h1 class="services">Our Services</h1> -->
+
+    <div class="scontainer">
+
+	<div class="card1" onclick="this.classList.toggle('expanded')">
+		<img src="img/tc.png" class="label" alt="">
+  		<div class="text1">
+    		<div class="text-content">
+      			<h2 class="title">Trusted Content</h1>
+      			<div class="body-text">The notes which are delivered by us are made under the direct supervision of the teachers of the university.</div>
+      			
+    		</div>
+  		</div>
+  		
+  		<svg class="chevron"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="8"/></svg>	
+  		
+	</div>
+
+
+	<div class="card2" onclick="this.classList.toggle('expanded2')">
+		<img src="img/sn.png" class="label2" alt="">
+  		<div class="text2">
+    		<div class="text-content2">
+      			<h2 class="title2">Short Notes</h1>
+      			<div class="body-text2">You don't have to go for long and time-consuming reading. We are here to make it short for you.</div>
+    		</div>
+  		</div>
+  		<svg class="chevron2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="8"/></svg>
+	</div>
+
+
+	<div class="card3" onclick="this.classList.toggle('expanded3')">
+		<img src="img/24.png" class="label3" alt="">
+  		<div class="text3">
+    		<div class="text-content3">
+      			<h2 class="title3">24/7 Service</h1>
+      			<div class="body-text3">Here, we provide 24/7 student-service. Our contact details are always mentioned in the website.</div>
+    		</div>
+  		</div>
+  		<svg class="chevron3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="8"/></svg>
+	</div>
+
+  <div class="card4" onclick="this.classList.toggle('expanded4')">
+    <img src="img/hots.png" class="label4" alt="">
+      <div class="text4">
+        <div class="text-content4">
+            <h2 class="title4">Hots</h1>
+            <div class="body-text4">has stayed the same reliable for nearly a century</div>
+        </div>
+      </div>
+      <svg class="chevron4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="8"/></svg>
+  </div>
+	</div>
+
+	</section>
+
+
+	<section id="footer">
+		<div>
+			<h1 class="ftxt">NOTES PICKUP</h1>
+			<p class="fp">Welcome to our company. Lorem ipsum is simply<br> free text dolor sit amet consectetur adipisicing elit. Tempore <br>corrupti temporibus fuga earum asperiores, alias excepturi<br> sit mpedit fugit laudantium.</p>	
+		</div>
+		<div class="con">
+			<h1 class="contxt">
+				CONTACT
+			</h1>
+			<p class="cp">
+				66 Thane, Maharashtra<br>
+				India<br><br>
+
+				P: 	+919927468766<br><br>
+
+				E: 	contact@notespickup.com
+			</p>
+		</div>
+		<div class="social">
+
+			<h1  class="stxt">SOCIAL</h1>
+			<p class="sp"><i class="fab fa-twitter-square"></i><span>Twitter</span></p>
+			<p class="sp2"><i class="fab fa-facebook-square"></i><span>Facebook</span></p>
+			<p class="sp3"><i class="fab fa-youtube-square"></i><span>Youtube</span></p>
+			
+		</div>
+
+		<div class="line">
+			
+		</div>
+
+		<div class="rights">
+			© Copyright 2020. All Rights Reserved.
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.firefly-0.7.js"></script>
+
+<script>
+  $.firefly({
+    color: '#fab917',
+    minPixel: 2,
+    maxPixel: 9,
+    total : 15,
+    on: '#firefly'
+});</script>
+
+</body>
+</html>

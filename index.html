@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Notes Pickup</title>
+
+	<link rel="stylesheet" type="text/css" href="css/stylemv.css">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/6878103c17.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+
+
+	<!-- <script>
+		$(document).ready(function(){
+  			$(".bars").click(function(){
+   			 $(".ul,.ul2").slideToggle("slow");
+  			});
+		});
+	</script> -->
+	<script>
+
+		$(document).ready(function(){
+  			$("#iconbar").click(function(){
+    			$("nav").toggleClass("responsivev");
+  			});
+		});
+	</script>
+</head>
+<body>
+	<section id="home">
+		<!-- <div class="logomv">
+				<a href="index.html"><img src="img/logomv2.png"></a>
+			</div> -->
+
+		<nav class="nav" id="nav2">
+
+			<ul class="ul">
+
+				<li ><a href="articles.html" id="n1">Articles</a></li>
+				<li ><a href="aboutus.html" id="n2">About</a></li>
+				<li ><a href="services.html" id="n3">Services</a></li>				
+				<li ><a href="#feedback" id="n4">Feedback</a></li>
+			</ul>
+
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+				
+
+			<ul class="ul2">
+				
+				<li ><a href="contact.html" id="n5">Contact</a></li>
+				<li ><a href="faq2.html" id="n6">FAQ's</a></li>
+				<li ><a href="card.html" id="n6">Internships</a></li>
+				<li ><a href="faq2.html" id="n6">Certificates</a></li>
+
+			</ul>
+
+		</nav>
+
+		<a href="#" id="iconbar"><i class="fas fa-bars bars"></i></a>
+
+		<div class="content">
+			
+			<h1 class="welcome">Let Study Begin</h1>
+
+			<h1 class="np"> Notes <span class="hm"> Pickup</span></h1>
+
+			<div class="btn"> 
+
+			<a class="b1" href="#">Download Our App</a>
+
+		</div>
+
+		</div>
+
+		<div id="firefly">
+			
+		</div>
+	</section>
+
+	
+	<section id="courses">
+		<div class="chead">Select a Course</div>
+			<div class="box">
+				<button class="cb1">
+					<i class="fa fa-cogs" style="font-size:25px" aria-hidden="true"></i>&nbsp;Engineering and Technology
+				</button>
+				<button class="cb2">
+					<i class="fa fa-graduation-cap" style="font-size:25px" aria-hidden="true"></i>&nbsp;Placement and More
+				</button>
+				<div class="etbox" >
+					<ul class="cul1">
+						<li>Electrical Engineering</li>
+						<li>Computer Science and Engineering</li>
+						<li>Electronics and Instrumentation Engineering</li>
+						<li>Information Technology Engineering</li>
+						<li>Electronics and Telecommunication Engineering</li>
+					</ul>
+					<ul class="cul10">
+						<li>Electrical and Electronics Engineering</li>
+						<li>Chemical Engineering</li>
+						<li>Civil Engineering</li>
+						<li>Mechanical Engineering</li>
+						<li>Master of Computer Applications</li>
+					</ul>
+				</div>
+
+				<div class="etbox2" style="display: none;">
+					<ul class="cul2">
+						<li>Quantitative Aptitude</li>
+						<li>Logical Reasoning</li>
+						<li>Verbal Ability</li>
+						<li>Verbal Reasoning</li>
+					</ul>
+					<ul class="cul20">
+						<li>Latest Uploads</li>
+						<li>Video Tutorials</li>
+						<li>Question Sets</li>
+						<li>Lab manuals</li>
+					</ul>
+				</div>
+			</div>
+    </section>
+
+    <script>
+$(document).ready(function(){
+  $(".cb2").click(function(){
+    $(".etbox").hide();
+    $(".etbox2").show();
+    $(this).css('background-color','#D3D3D3');
+    $(".cb1").css('background-color','#fff');
+  });
+  $(".cb1").click(function(){
+    $(".etbox2").hide();
+    $(".etbox").show();
+    $(this).css('background-color','#D3D3D3');
+    $(".cb2").css('background-color','#fff');
+  });
+});
+</script>
+
+
+	<section id="bar">
+		
+		<section class="counters">
+			<div class="container">
+				<div>
+					<i class="fas fa-university"></i>
+					<div class="counter" data-target="750">0</div>
+					<h3>Colleges</h3>
+				</div>
+				<div>
+					<i class="fas fa-user-graduate"></i>
+					<div class="counter" data-target="550">0</div>
+					<h3>Students Interns</h3>
+				</div>
+				<div>
+					<i class="fas fa-users"></i>
+					<div class="counter" data-target="2000">0</div>
+					<h3>Daily Visitors</h3>
+				</div>
+				<div>
+					<i class="fas fa-book"></i>
+					<div class="counter" data-target="100">0</div>
+					<h3>Courses</h3>
+				</div>
+			</div>
+			
+			<script src="js/jquery.counterup.min.js"></script>
+			<script>
+				jquery(document).ready(func($)
+				{
+					$('.counter').counterup({
+						delay: 10,time: 1000
+					});
+				});
+			</script>
+		</section>
+	</section>
+	
+
+
+<script>
+    	$(".slider").owlCarousel({
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000, //2000ms = 2s;
+           autoplayHoverPause: true,
+        });
+    </script>
+	
+
+	<section id="feedback">
+		<h1 class="wts">What They Say About Us</h1>
+		
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<img src="img/fb1.jpg"style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="img/fb2.jpg"style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="img/fb3.jpg"style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0;
+  i < slides.length;
+
+  i++) {
+    slides[i].style.display ="none";
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {
+    slideIndex = 1
+  }
+
+  for (i = 0;
+  i < dots.length;
+
+  i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display ="block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+  // Change image every 2 seconds
+}
+
+</script>
+	</section>
+
+	
+	<section id="footer">
+		<div>
+			<h1 class="ftxt">NOTES PICKUP</h1>
+			<p class="fp">Welcome to our company. Lorem ipsum is simply<br> free text dolor sit amet consectetur adipisicing elit. Tempore <br>corrupti temporibus fuga earum asperiores, alias excepturi<br> sit mpedit fugit laudantium.</p>	
+		</div>
+		<div class="con">
+			<h1 class="contxt">
+				CONTACT
+			</h1>
+			<p class="cp">
+				66 Thane, Maharashtra<br>
+				India<br><br>
+
+				P: 	+919927468766<br><br>
+
+				E: 	contact@notespickup.com
+			</p>
+		</div>
+		<div class="social">
+
+			<h1  class="stxt">SOCIAL</h1>
+			<p class="sp"><i class="fab fa-twitter-square"></i><span>Twitter</span></p>
+			<p class="sp2"><i class="fab fa-facebook-square"></i><span>Facebook</span></p>
+			<p class="sp3"><i class="fab fa-youtube-square"></i><span>Youtube</span></p>
+			
+		</div>
+
+		<div class="line">
+			
+		</div>
+
+		<div class="rights">
+			© Copyright 2020. All Rights Reserved.
+		</div>
+	</section>
+
+
+<script type="text/javascript">
+const counters = document.querySelectorAll('.counter');
+const speed = 200; 
+
+counters.forEach(counter => {
+	const updateCount = () => {
+		const target = +counter.getAttribute('data-target');
+		const count = +counter.innerText;
+
+
+		const inc = target / speed;
+
+
+		if (count < target) {
+			counter.innerText = count + inc;
+			setTimeout(updateCount, 1);
+		} else {
+			counter.innerText = target;
+		}
+	};
+
+	updateCount();
+});
+
+</script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.firefly-0.7.js"></script>
+
+<script>
+  $.firefly({
+    color: '#fab917',
+    minPixel: 2,
+    maxPixel: 9,
+    total : 15,
+    on: '#firefly'
+});</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="https://kit.fontawesome.com/6878103c17.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function(){
+        $("#iconbar").click(function(){
+          $("nav").toggleClass("responsivev");
+        });
+    });
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+  <section id="home">
+    <!-- <div class="logomv">
+        <a href="index.html"><img src="img/logomv2.png"></a>
+      </div> -->
+
+    <nav class="nav" id="nav2">
+
+      <ul class="ul">
+
+        <li ><a href="articles.html" id="n1">Articles</a></li>
+        <li ><a href="aboutus.html" id="n2">About</a></li>
+        <li ><a href="services.html" id="n3">Services</a></li>        
+        <li ><a href="#feedback" id="n4">Feedback</a></li>
+      </ul>
+
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png"></a>
+      </div>
+        
+
+      <ul class="ul2">
+        
+        <li ><a href="contact.html" id="n5">Contact</a></li>
+        <li ><a href="faq2.html" id="n6">FAQ's</a></li>
+        <li ><a href="card.html" id="n6">Internships</a></li>
+        <li ><a href="#" id="n6">Certificates</a></li>
+
+      </ul>
+
+    </nav>
+
+    <a href="#" id="iconbar" onclick="menu()"><i class="fas fa-bars bars"></i></a>
+
+    <div class="content">
+      
+      <h1 class="welcome">Contact</h1>
+
+    </div>
+
+    <div id="firefly">
+      
+    </div>
+  </section>
+
+  <section id="aboutus">
+    <div class="jumbotron text-center">
+  <h1 style="color: #ff4948;">We'd Love to Hear from You</h1>
+  <p style="font-size:20px" class="txt">Our Teams are here to get in touch with you and help.</p> 
+</div>
+<div class="container">
+  <h2>Drop us a line</h2>
+  <form action="/action_page.php" class="needs-validation" novalidate>
+    <div class="form-group">
+      <label for="uname">Fullname:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter your name" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Email-id</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter your mail-id" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Message</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter your message here" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember" required>I agree
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </label>
+    </div>
+    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+  </form>
+</div>
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+  </section>
+
+
+  <section id="footer">
+    <div>
+      <h1 class="ftxt">NOTES PICKUP</h1>
+      <p class="fp">Welcome to our company. Lorem ipsum is simply<br> free text dolor sit amet consectetur adipisicing elit. Tempore <br>corrupti temporibus fuga earum asperiores, alias excepturi<br> sit mpedit fugit laudantium.</p>  
+    </div>
+    <div class="con">
+      <h1 class="contxt">
+        CONTACT
+      </h1>
+      <p class="cp">
+        66 Thane, Maharashtra<br>
+        India<br><br>
+
+        P:  +919927468766<br><br>
+
+        E:  contact@notespickup.com
+      </p>
+    </div>
+    <div class="social">
+
+      <h1  class="stxt">SOCIAL</h1>
+      <p class="sp"><i class="fab fa-twitter-square"></i><span>Twitter</span></p>
+      <p class="sp2"><i class="fab fa-facebook-square"></i><span>Facebook</span></p>
+      <p class="sp3"><i class="fab fa-youtube-square"></i><span>Youtube</span></p>
+      
+    </div>
+
+    <div class="line">
+      
+    </div>
+
+    <div class="rights">
+      © Copyright 2020. All Rights Reserved.
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.firefly-0.7.js"></script>
+
+<script>
+  $.firefly({
+    color: '#fab917',
+    minPixel: 2,
+    maxPixel: 9,
+    total : 35,
+    on: '#firefly'
+});</script>
+
+</body>
+</html>
