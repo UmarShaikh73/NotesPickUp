@@ -349,7 +349,7 @@ button{
 
 #iconbar{
 	color: #fff;
-	font-size: 1rem;
+	font-size: 4em;
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -435,7 +435,7 @@ button{
 		opacity: 1;
 		visibility: visible;
 		margin-top: 150px;
-		margin-left: -50px;
+		margin-left: 50px;
 	}
 
 	.nav.responsivev ul li{
@@ -463,8 +463,8 @@ button{
 	.nav.responsivev .ul2{
 		opacity: 1;
 		visibility: visible;
-		margin-top: 320px;
-		margin-left: 260px;
+		margin-top: 240px;
+		margin-left: 270px;
 	}
 
 
