@@ -1,8 +1,7 @@
 *{
 margin:0;
 padding: 0;
-scroll-behavior: smooth;
-box-sizing: border-box;
+scroll-behavior: smooth;   
 }
 
 #firefly{
@@ -547,5 +546,11 @@ button{
 		position: absolute;
 		margin-top: 190px;
 		margin-left: 100px;
+	}
+	#aboutus{
+		overflow-x: hidden;
+	}
+	#footer{
+		overflow-x: hidden;
 	}
 }
